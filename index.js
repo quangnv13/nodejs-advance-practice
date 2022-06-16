@@ -1,16 +1,23 @@
+/* eslint-disable no-undef */
 const express = require('express');
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const bodyParser = require('body-parser');
 const keys = require('./config/keys');
+const morgan = require('morgan');
+const logger = require('./middlewares/logging');
 
 require('./models/User');
 require('./models/Blog');
 require('./services/passport');
+require('./services/cache');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(keys.mongoURI, { useMongoClient: true });
+mongoose.connect(keys.mongoURI, {auth: {
+  username: 'root',
+  password: '123456'
+}, dbName: 'blog_everyone'});
 
 const app = express();
 
@@ -23,6 +30,11 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(morgan('combined', {
+  stream: {
+    write: (message) => logger.http(message)
+  }
+}));
 
 require('./routes/authRoutes')(app);
 require('./routes/blogRoutes')(app);
@@ -38,5 +50,5 @@ if (['production'].includes(process.env.NODE_ENV)) {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Listening on port`, PORT);
+  logger.info(`Listening on port ${PORT}`);
 });

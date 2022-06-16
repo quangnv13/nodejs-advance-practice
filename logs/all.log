@@ -1,0 +1,569 @@
+2022-06-07 15:03:35:335 [32minfo[39m: [32mListening on port[39m
+2022-06-07 15:03:41:341 [32minfo[39m: [32mListening on port[39m
+2022-06-07 15:04:28:428 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:04:56:456 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:06:35:635 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:07:21:721 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:07:39:739 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:07:42:742 [32minfo[39m: [32m::ffff:127.0.0.1 - - [07/Jun/2022:08:07:42 +0000] "GET /api/current_user HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[32m[39m
+2022-06-07 15:08:30:830 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:08:36:836 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:09:28:928 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:11:10:1110 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-07 15:11:20:1120 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:11:20 +0000] "GET /api/blogs/629efd8f7f1bd834ba4e8a6b HTTP/1.1" 304 - "http://localhost:3000/blogs/629efd8f7f1bd834ba4e8a6b" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:11:31:1131 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:11:31 +0000] "GET /auth/logout HTTP/1.1" 302 46 "http://localhost:3000/blogs/629efd8f7f1bd834ba4e8a6b" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:11:31:1131 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:11:31 +0000] "GET /api/current_user HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:11:35:1135 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:11:35 +0000] "GET /auth/google HTTP/1.1" 302 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:11:48:1148 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:11:48 +0000] "GET /auth/google HTTP/1.1" 302 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:12:11:1211 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:12:11 +0000] "GET /auth/google/callback?code=4%2F0AX4XfWgjuWo9x6N5Az19v_haVU7rEHQL2GMy8VsVVyrXYen7bb--iDWQmJHI4SA51nfGqA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:12:12:1212 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:12:12 +0000] "GET /api/current_user HTTP/1.1" 200 113 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-07 15:12:12:1212 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [07/Jun/2022:08:12:12 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-12 20:21:14:2114 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-12 20:21:20:2120 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [12/Jun/2022:13:21:20 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-12 20:21:36:2136 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [12/Jun/2022:13:21:36 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-12 20:21:46:2146 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [12/Jun/2022:13:21:46 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:02:32:232 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:02:38:238 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:02:38 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:02:45:245 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:02:45 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:03:35:335 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:03:35 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:03:35:335 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:03:35 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:07:01:71 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:08:53:853 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:08:59:859 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:08:59 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:09:08:98 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:09:08 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:09:23:923 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:09:27:927 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:09:27 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:09:48:948 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:09:48 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:09:59:959 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:10:09:109 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:10:13:1013 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:10:13 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:12:15:1215 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:12:20:1220 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:12:20 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:13:30:1330 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:13:34:1334 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:13:34 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:13:53:1353 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:13:53 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:14:13:1413 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:14:13 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:14:21:1421 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:14:28:1428 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:14:28 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:14:48:1448 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:14:48 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:15:08:158 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:15:15:1515 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:15:15 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:15:35:1535 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:15:35 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:16:08:168 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:16:14:1614 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:16:14 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:16:34:1634 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:16:34 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:16:41:1641 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:16:41 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:17:02:172 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:17:02 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:18:53:1853 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:18:58:1858 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:18:58 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:19:18:1918 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:19:18 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:19:27:1927 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:19:27 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:19:47:1947 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:19:47 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:29:54:2954 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:30:01:301 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:30:01 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:30:02:302 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:30:02 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:30:13:3013 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:30:13 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:30:13:3013 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:30:13 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:30:32:3032 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:30:43:3043 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:30:46:3046 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:30:46 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:30:46:3046 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:30:46 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:31:12:3112 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:31:15:3115 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:31:15 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:31:15:3115 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:31:15 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:32:24:3224 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:32:28:3228 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:32:28 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:32:28:3228 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:32:28 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:32:37:3237 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:32:41:3241 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:32:41 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:32:41:3241 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:32:41 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:34:01:341 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:34:04:344 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:34:04 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:34:54:3454 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:34:59:3459 [32minfo[39m: [32mServe from cache[39m
+2022-06-13 11:34:59:3459 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:34:59 +0000] "GET /api/blogs HTTP/1.1" 200 616 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:34:59:3459 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:34:59 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:35:09:359 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:40:06:406 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:40:11:4011 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:40:11 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:40:11:4011 [32minfo[39m: [32mServe from cache[39m
+2022-06-13 11:40:11:4011 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:40:11 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:40:30:4030 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:40:30 +0000] "POST /api/blogs HTTP/1.1" 200 156 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:40:30:4030 [32minfo[39m: [32mServe from cache[39m
+2022-06-13 11:40:30:4030 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:40:30 +0000] "GET /api/blogs HTTP/1.1" 200 2702 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:40:47:4047 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:40:47 +0000] "POST /api/blogs HTTP/1.1" 200 157 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:40:47:4047 [32minfo[39m: [32mServe from cache[39m
+2022-06-13 11:40:47:4047 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:40:47 +0000] "GET /api/blogs HTTP/1.1" 200 12387 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:45:53:4553 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-13 11:46:35:4635 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:46:35 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:46:35:4635 [32minfo[39m: [32mServe from database[39m
+2022-06-13 11:46:35:4635 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:46:35 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:47:10:4710 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:47:10 +0000] "POST /api/blogs HTTP/1.1" 200 152 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:47:10:4710 [32minfo[39m: [32mServe from cache[39m
+2022-06-13 11:47:10:4710 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:47:10 +0000] "GET /api/blogs HTTP/1.1" 200 4002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:47:24:4724 [32minfo[39m: [32mServe from cache[39m
+2022-06-13 11:47:24:4724 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:47:24 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-13 11:47:24:4724 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [13/Jun/2022:04:47:24 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:41:49:4149 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:41:54:4154 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:41:54 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:43:13:4313 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:43:13:4313 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:43:13 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:44:07:447 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:44:07:447 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:44:07 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:44:08:448 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:44:08 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:46:29:4629 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:46:29:4629 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:46:29 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:46:29:4629 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:46:29 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:47:54:4754 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:47:58:4758 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:47:58:4758 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:47:58 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:47:58:4758 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:47:58 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:48:20:4820 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:48:23:4823 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:48:23:4823 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:48:23 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:48:23:4823 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:48:23 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:50:22:5022 [32minfo[39m: [32mServe from database[39m
+2022-06-14 09:50:22:5022 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:50:22 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:50:22:5022 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:50:22 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:50:56:5056 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:51:09:519 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:51:09:519 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:51:09 +0000] "GET /api/blogs HTTP/1.1" 200 1084 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:51:09:519 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:51:09 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:51:26:5126 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:51:26 +0000] "POST /api/blogs HTTP/1.1" 200 150 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:51:26:5126 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:51:26:5126 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:51:26 +0000] "GET /api/blogs HTTP/1.1" 200 4634 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:52:56:5256 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:53:07:537 [32minfo[39m: [32mServe from database[39m
+2022-06-14 09:53:07:537 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:53:07 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:53:07:537 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:53:07 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:53:13:5313 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:53:13 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:53:13:5313 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:53:13:5313 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:53:13 +0000] "GET /api/blogs HTTP/1.1" 200 1235 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:53:23:5323 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:53:23 +0000] "POST /api/blogs HTTP/1.1" 200 148 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:53:23:5323 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:53:23:5323 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:53:23 +0000] "GET /api/blogs HTTP/1.1" 200 5258 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:54:42:5442 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:54:53:5453 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:54:56:5456 [32minfo[39m: [32mServe from database[39m
+2022-06-14 09:54:56:5456 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:54:56 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:54:57:5457 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:54:57 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:55:17:5517 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:55:17:5517 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:55:17 +0000] "GET /api/blogs HTTP/1.1" 200 1384 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:55:17:5517 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:55:17 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:55:36:5536 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:55:42:5542 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:55:46:5546 [32minfo[39m: [32mServe from database[39m
+2022-06-14 09:55:46:5546 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:55:46 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:55:46:5546 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:55:46 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:56:01:561 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:56:01 +0000] "POST /api/blogs HTTP/1.1" 200 151 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:56:01:561 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:56:01:561 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:56:01 +0000] "GET /api/blogs HTTP/1.1" 200 5879 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:57:01:571 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:57:13:5713 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 09:57:15:5715 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:57:15 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:57:16:5716 [32minfo[39m: [32mServe from database[39m
+2022-06-14 09:57:16:5716 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:57:16 +0000] "GET /api/blogs HTTP/1.1" 200 1536 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:57:33:5733 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:57:33 +0000] "POST /api/blogs HTTP/1.1" 200 148 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:57:33:5733 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:57:33:5733 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:57:33 +0000] "GET /api/blogs HTTP/1.1" 200 1677 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:57:54:5754 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:57:54 +0000] "POST /api/blogs HTTP/1.1" 200 157 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 09:57:55:5755 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 09:57:55:5755 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:02:57:55 +0000] "GET /api/blogs HTTP/1.1" 200 1827 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 10:03:06:36 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:03:03:06 +0000] "POST /api/blogs HTTP/1.1" 200 158 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 10:03:06:36 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 10:03:06:36 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:03:03:06 +0000] "GET /api/blogs HTTP/1.1" 200 1978 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 10:03:15:315 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 10:03:15:315 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:03:03:15 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 10:03:15:315 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:03:03:15 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 14:11:19:1119 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 15:07:39:739 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 15:07:39:739 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:08:07:39 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 15:07:39:739 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:08:07:39 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 16:56:21:5621 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 17:03:22:322 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 17:03:49:349 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 17:03:49:349 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:10:03:49 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 17:03:55:355 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:10:03:55 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 20:30:58:3058 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 20:31:03:313 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:13:31:03 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 20:31:27:3127 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 20:31:31:3131 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 20:31:31:3131 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:13:31:31 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 20:45:46:4546 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 20:45:50:4550 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:13:45:50 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 20:45:50:4550 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 20:45:50:4550 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:13:45:50 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:07:34:734 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:07:37:737 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:07:37 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:07:37:737 [32minfo[39m: [32mServe from cache[39m
+2022-06-14 21:07:37:737 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:07:37 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:09:05:95 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:15:05:155 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:20:05:205 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:20:37:2037 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:20:41:2041 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:20:41 +0000] "GET /api/current_user HTTP/1.1" 200 113 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:20:41:2041 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:20:41 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:22:25:2225 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:23:52:2352 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:23:52 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:23:52:2352 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:23:52 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:01:241 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:01 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:01:241 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:01 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:16:2416 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:16 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:16:2416 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:16 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:28:2428 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:24:31:2431 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:31 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:31:2431 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:31 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:36:2436 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:36 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:24:36:2436 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:24:36 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:25:22:2522 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:25:35:2535 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:25:35 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:25:35:2535 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:25:35 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:26:05:265 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:26:08:268 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:26:08 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:26:08:268 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:26:08 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:26:13:2613 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:26:16:2616 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:26:16 +0000] "GET /api/current_user HTTP/1.1" 200 115 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:26:16:2616 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:26:16 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:29:58:2958 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-14 21:30:01:301 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:30:01 +0000] "GET /api/current_user HTTP/1.1" 200 34 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:30:01:301 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:30:01 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:32:13:3213 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:32:13 +0000] "GET /api/current_user HTTP/1.1" 200 34 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-14 21:32:13:3213 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [14/Jun/2022:14:32:13 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:21:03:213 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:21:10:2110 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:21:10 +0000] "GET /api/current_user HTTP/1.1" 200 34 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:28:44:2844 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:28:51:2851 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:28:51 +0000] "GET /api/current_user HTTP/1.1" 200 115 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:28:53:2853 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:28:53 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:29:02:292 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:29:02 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:29:02:292 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:29:02 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:29:11:2911 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:29:11 +0000] "POST /api/blogs HTTP/1.1" 200 115 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:29:11:2911 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:29:11 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:29:13:2913 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:29:13 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:29:13:2913 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:29:13 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:31:06:316 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:31:06 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:31:06:316 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:31:06 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:31:08:318 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:31:08 +0000] "GET /api/current_user HTTP/1.1" 200 115 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:31:08:318 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:31:08 +0000] "GET /api/blogs HTTP/1.1" 200 2 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:31:13:3113 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:31:13 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:31:13:3113 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:31:13 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:33:22:3322 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:33:26:3326 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:33:26 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:33:26:3326 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:33:26 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:33:38:3338 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:34:08:348 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:34:08 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:34:08:348 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:34:08 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:34:13:3413 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:34:13 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:34:13:3413 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:34:13 +0000] "GET /api/blogs HTTP/1.1" 200 117 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:34:29:3429 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:34:34:3434 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:34:34 +0000] "GET /api/blogs HTTP/1.1" 200 75 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:34:34:3434 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:34:34 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:35:44:3544 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:35:44 +0000] "GET /api/blogs HTTP/1.1" 200 75 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:35:45:3545 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:35:45 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:36:20:3620 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:36:25:3625 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:36:25 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:36:25:3625 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:36:25 +0000] "GET /api/blogs HTTP/1.1" 200 75 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:39:25:3925 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:39:31:3931 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:39:31 +0000] "GET /api/current_user HTTP/1.1" 200 113 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:39:32:3932 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:39:32 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:39:40:3940 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:39:40 +0000] "GET /api/current_user HTTP/1.1" 200 113 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:39:40:3940 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:39:40 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:41:01:411 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:41:01 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:41:01:411 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:41:01 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:41:35:4135 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 16:41:38:4138 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:41:38 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:41:38:4138 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:09:41:38 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 16:47:58:4758 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 17:59:53:5953 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:00:04:04 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:00:26:026 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:00:48:048 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:00:52:052 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:01:07:17 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:02:00:20 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:02:05:25 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:02:05 +0000] "GET /api/current_user HTTP/1.1" 200 113 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:02:05:25 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:02:05 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:02:17:217 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:02:17 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:02:17:217 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:02:17 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:04:30:430 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:04:37:437 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:04:37 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:04:37:437 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:04:37 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:04:44:444 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:04:44 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:04:44:444 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:04:44 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:04:51:451 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:04:53:453 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:04:53 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:04:53:453 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:04:53 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:05:05:55 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:05:08:58 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:05:08 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:05:08:58 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:05:08 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:05:18:518 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:05:21:521 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:05:21 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:05:21:521 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:05:21 +0000] "GET /api/blogs HTTP/1.1" 200 2002 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:05:50:550 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:05:54:554 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:05:54 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:05:54:554 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:05:54 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:06:32:632 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:06:35:635 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:06:35 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:06:35:635 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:06:35 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:06:59:659 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:07:02:72 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:07:02 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:07:02:72 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:07:02 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:07:36:736 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:07:38:738 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:07:38 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:07:38:738 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:07:38 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:08:21:821 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:08:24:824 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:08:24 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:08:24:824 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:08:24 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:08:45:845 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 18:08:47:847 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:08:47 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:08:47:847 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:08:47 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:09:00:90 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:09:00 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 18:09:00:90 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:11:09:00 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:55:36:5536 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 20:55:40:5540 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:55:40 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:56:29:5629 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 20:56:32:5632 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:56:32 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:57:03:573 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 20:57:07:577 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:57:07 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:57:07:577 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:57:07 +0000] "GET /api/blogs HTTP/1.1" 200 1536 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:57:18:5718 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 20:57:22:5722 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:57:22 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:57:22:5722 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:57:22 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:57:25:5725 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:57:25 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 20:57:25:5725 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:13:57:25 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:18:42:1842 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 21:18:48:1848 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:18:48 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:18:48:1848 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:18:48 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:18:53:1853 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:18:53 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:18:53:1853 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:18:53 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:19:55:1955 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 21:23:13:2313 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 21:25:27:2527 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 21:26:19:2619 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:26:19 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:26:19:2619 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:26:19 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:26:29:2629 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:26:29 +0000] "POST /api/blogs HTTP/1.1" 200 152 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:26:29:2629 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:26:29 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:29:09:299 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 21:40:29:4029 [32minfo[39m: [32mListening on port 5000[39m
+2022-06-15 21:40:34:4034 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:40:34 +0000] "GET /api/blogs HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:40:34:4034 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:40:34 +0000] "GET /api/current_user HTTP/1.1" 304 - "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:40:41:4041 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:40:41 +0000] "POST /api/blogs HTTP/1.1" 200 150 "http://localhost:3000/blogs/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
+2022-06-15 21:40:41:4041 [35mhttp[39m: [35m::ffff:127.0.0.1 - - [15/Jun/2022:14:40:41 +0000] "GET /api/blogs HTTP/1.1" 200 773 "http://localhost:3000/blogs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"[39m
+[35m[39m
